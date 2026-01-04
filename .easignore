@@ -1,0 +1,38 @@
+# Node modules (installed on build server automatically)
+node_modules
+
+# Git folder
+.git
+.gitignore
+
+# Build output
+.expo
+.expo-shared
+dist
+build
+android/app/build
+android/.gradle
+ios/build
+
+# Local assets not needed for build
+assets/raw_videos/
+assets/huge_images/
+
+# Temp files
+*.log
+*.tmp
+*.bak
+
+# Editor files
+.vscode
+.idea
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# Misc
+*.DS_Store
+
+# Large files that slow down upload
+npm-global/
+*.map
